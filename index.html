@@ -7,36 +7,53 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
         .container {
-            max-width: 600px;
-            margin: auto;
+            width: 50%;
+            margin: 50px auto;
             padding: 20px;
-            border: 1px solid #ccc;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
-        .phone-number {
-            font-size: 24px;
+        h1 {
+            color: #0078FF;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .helpline-number {
+            font-size: 22px;
             font-weight: bold;
-            color: #0070ba;
+            color: #0078FF;
+            margin: 20px 0;
+        }
+        .contact-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0078FF;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .contact-button:hover {
+            background: #005bb5;
         }
     </style>
-    <script>
-        function autoCall() {
-            window.location.href = "tel:+1-800-123-4567";
-        }
-        window.onload = autoCall;
-    </script>
 </head>
 <body>
     <div class="container">
-        <h1>Venmo Customer Support</h1>
-        <p>If you need assistance with your Venmo account, call our helpline:</p>
-        <p class="phone-number">1-800-123-4567</p>
-        <p>Our representatives are available 24/7 to assist you.</p>
+        <h1>Venmo Helpline</h1>
+        <p>Need help with your Venmo account? Our support team is available 24/7 to assist you.</p>
+        <div class="helpline-number">Call Us: +1-800-555-0199</div>
+        <a href="tel:+18005550199" class="contact-button">Call Now</a>
     </div>
 </body>
 </html>
